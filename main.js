@@ -23,7 +23,7 @@ app.listen(port, () => {
 });
 
 function getRandomPath() {
-  var idx = Math.floor(Math.random() * 13);
+  var idx = Math.floor(Math.random() * 26);
   console.log(idx);
   return `./${idx}.jpg`;
 }
